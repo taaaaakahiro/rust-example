@@ -12,7 +12,7 @@ rust-axum-app = { path = "../rust-axum-app" }
 rust-axum-adapter = { path = "../rust-axum-adapter" }
 axum = { version = "0.7.4", features = ["multipart"] }
 tokio = { version = "1.12.0", features = ["rt", "macros", "test-util"] }
-serde = { version = "1.0.130", features = ["derive"] }
+serde = { version = "1.0.200", features = ["derive"] }
 derive-new = "0.5.9"
 anyhow = "1.0.44"
 futures = { version = "0.3.17", features = ["executor"] }
