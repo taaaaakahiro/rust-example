@@ -17,7 +17,7 @@ derive-new = "0.5.9"
 anyhow = "1.0.44"
 futures = { version = "0.3.17", features = ["executor"] }
 validator = { version = "0.16.0", features = ["derive"] }
-http-body = "0.4.3"
+http-body = "1.0.0"
 thiserror = "1.0.30"
 tracing = "0.1.29"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
