@@ -16,6 +16,6 @@ tracing = "0.1.29"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 futures = "0.3.30"
 [dependencies.mongodb]
-version = "2.3.0"
+version = "3.0.0"
 default-features = false
 features = ["tokio-runtime"]
