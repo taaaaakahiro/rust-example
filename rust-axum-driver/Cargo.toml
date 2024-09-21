@@ -24,4 +24,4 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 dotenv = "0.15.0"
 csv = "1.1.6"
 envy = "0.4"
-tower-http = { version = "0.5.1", features = ["cors"] }
+tower-http = { version = "0.6.0", features = ["cors"] }
