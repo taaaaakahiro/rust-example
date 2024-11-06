@@ -18,7 +18,7 @@ anyhow = "1.0.44"
 futures = { version = "0.3.17", features = ["executor"] }
 validator = { version = "0.16.0", features = ["derive"] }
 http-body = "0.4.3"
-thiserror = "1.0.30"
+thiserror = "2.0.0"
 tracing = "0.1.29"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 dotenv = "0.15.0"
