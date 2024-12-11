@@ -3,7 +3,7 @@ version: "3"
 services:
   mongo:
     container_name: rust-axum-mongo
-    image: mongo:7.0.0
+    image: mongo:8.0.4
     restart: always
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
