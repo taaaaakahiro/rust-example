@@ -10,7 +10,7 @@ edition = "2021"
 rust-axum-kernel = { path = "../rust-axum-kernel" }
 rust-axum-app = { path = "../rust-axum-app" }
 rust-axum-adapter = { path = "../rust-axum-adapter" }
-axum = { version = "0.7.4", features = ["multipart"] }
+axum = { version = "0.8.0", features = ["multipart"] }
 tokio = { version = "1.12.0", features = ["rt", "macros", "test-util"] }
 serde = { version = "1.0.130", features = ["derive"] }
 derive-new = "0.5.9"

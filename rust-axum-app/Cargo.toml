@@ -7,7 +7,7 @@ edition = "2021"
 [dependencies]
 rust-axum-kernel = { path = "../rust-axum-kernel" }
 rust-axum-adapter = { path = "../rust-axum-adapter" }
-axum = "0.6.11"
+axum = "0.8.0"
 anyhow = "1.0.58"
 tokio = { version = "1.0", features = ["full"] }
 tracing = "0.1"
